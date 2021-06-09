@@ -4,26 +4,27 @@
   "description": "**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode=development"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nabock/goit-js-hw-08-gallery.git"
+    "url": "git+https://github.com/nabock/goit-js-hw-10-food-service.git"
   },
-  "author": "",
+  "author": "Serhii Nabok <s.nabock@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nabock/goit-js-hw-08-gallery/issues"
+    "url": "https://github.com/nabock/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://github.com/nabock/goit-js-hw-08-gallery#readme",
+  "homepage": "https://nabock.github.io/goit-js-hw-10-food-service/src/index.html",
   "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "imports-loader": "^3.0.0",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.38.1",
-    "webpack-cli": "^4.7.0",
-    "webpack-dev-middleware": "^5.0.0"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.0",
+    "validator": "^13.6.0"
   }
 }
