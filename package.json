@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabock/goit-js-hw-08-gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabock/goit-js-hw-08-gallery/issues"
+  },
+  "homepage": "https://github.com/nabock/goit-js-hw-08-gallery#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "imports-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-middleware": "^5.0.0"
+  }
+}
