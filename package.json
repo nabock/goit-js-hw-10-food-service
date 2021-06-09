@@ -1,13 +1,12 @@
 {
   "name": "goit-js-hw-10-food-service",
   "version": "1.0.0",
-  "description": "**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,13 +17,14 @@
   "bugs": {
     "url": "https://github.com/nabock/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://nabock.github.io/goit-js-hw-10-food-service/src/index.html",
+  "homepage": "https://nabock.github.io/goit-js-hw-10-food-service/#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-nuke-dist": "^1.0.1"
   },
   "dependencies": {
     "gh-pages": "^3.2.0",
+    "handlebars": "^4.7.7",
     "validator": "^13.6.0"
   }
 }
