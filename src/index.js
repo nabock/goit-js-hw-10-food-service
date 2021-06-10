@@ -1,6 +1,6 @@
 //импорт данных----------------------------------------------
 
-import menuCardTmpl from './templates/menu-card.hbs'
+import menuCardTmpl from '/templates/menu-card.hbs'
 import menuCards from './menu.json'
 
 // массив ссылок----------------------------------------------
@@ -10,7 +10,7 @@ const refs = {
     checkBox: document.querySelector('#theme-switch-toggle')
 
 }
-// console.log(refs.checkBox)
+console.log(refs.checkBox)
 console.log(refs.body)
 //массив тем -------------------------------------------------
 
