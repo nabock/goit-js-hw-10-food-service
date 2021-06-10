@@ -3,28 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://dukadima.github.io/goit-js-hw-10-food-service/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nabock/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/DukaDima/goit-js-hw-10-food-service.git"
   },
-  "author": "Serhii Nabok <s.nabock@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nabock/goit-js-hw-10-food-service/issues"
+    "url": "https://github.com/DukaDima/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://nabock.github.io/goit-js-hw-10-food-service/#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "parcel-plugin-nuke-dist": "^1.0.1"
-  },
-  "dependencies": {
-    "gh-pages": "^3.2.0",
-    "handlebars": "^4.7.7",
-    "npm": "^7.16.0",
-    "parcel-plugin-handlebars": "^0.4.4"
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   }
 }
