@@ -7,9 +7,9 @@ import menuCards from './menu.json'
 // массив ссылок----------------------------------------------
 
 const refs = {
-  body: document.body,
-  menu: document.querySelector('.js-menu'),
-  checkBox: document.querySelector('#theme-switch-toggle')
+    body: document.body,
+    menu: document.querySelector('.js-menu'),
+    checkBox: document.querySelector('#theme-switch-toggle') 
 }
 
 //массив тем -------------------------------------------------
@@ -22,10 +22,10 @@ const Theme = {
 //создание меню ---------------------------------------------
 
 const menuList = createMenuCards(menuCards)
-refs.menu.insertAdjacentHTML('beforeend', menuList)
+refs.menu.insertAdjacentHTML('beforeend',menuList)
 
 function createMenuCards(menuCards) {
-  return menuCards.map(menuCardTmpl).join('');
+    return menuCards.map(menuCardTmpl).join('');
 };
 
 // переключение тем------------------------------------------
@@ -40,11 +40,11 @@ if (!localStorage.getItem('thema')) {
 refs.body.className = localStorage.getItem('thema')
 
 function onChange() {
-
+  
   refs.body.classList.toggle(Theme.DARK)
   refs.body.classList.toggle(Theme.LIGHT)
 
-  return localStorage.setItem('thema', refs.body.classList)
+   return localStorage.setItem('thema',refs.body.classList)
 }
 // проверка кнопки на checked----------------------
 const currentClass = localStorage.getItem('thema')
