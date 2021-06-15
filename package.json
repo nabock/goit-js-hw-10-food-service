@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://dukadima.github.io/goit-js-hw-10-food-service/",
+  "homepage": "https://nabock.github.io/goit-js-hw-10-food-service/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DukaDima/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/nabock/goit-js-hw-10-food-service.git"
   },
-  "author": "",
+  "author": "Nabok Serhii",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DukaDima/goit-js-hw-10-food-service/issues"
+    "url": "https://github.com/nabock/goit-js-hw-10-food-service/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
