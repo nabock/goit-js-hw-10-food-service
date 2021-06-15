@@ -2148,7 +2148,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 
 var templateFunction = _handlebars.default.template({
   "1": function _(container, depth0, helpers, partials, data) {
-    return "                <li class=\"tag-list__item\">" + container.escapeExpression(container.lambda(depth0, depth0)) + "</li>\r\n";
+    return "                <li class=\"tag-list__item\">" + container.escapeExpression(container.lambda(depth0, depth0)) + "</li>\n";
   },
   "compiler": [8, ">= 4.3.0"],
   "main": function main(container, depth0, helpers, partials, data) {
@@ -2166,7 +2166,7 @@ var templateFunction = _handlebars.default.template({
       return undefined;
     };
 
-    return "<li class=\"menu__item\">\r\n    <article class=\"card\">\r\n        <img src=\"" + alias4((helper = (helper = lookupProperty(helpers, "image") || (depth0 != null ? lookupProperty(depth0, "image") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
+    return "<li class=\"menu__item\">\n    <article class=\"card\">\n        <img src=\"" + alias4((helper = (helper = lookupProperty(helpers, "image") || (depth0 != null ? lookupProperty(depth0, "image") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
       "name": "image",
       "hash": {},
       "data": data,
@@ -2180,63 +2180,63 @@ var templateFunction = _handlebars.default.template({
           "column": 27
         }
       }
-    }) : helper)) + "\" alt=\"" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
+    }) : helper)) + "\"\n            alt=\"" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
       "name": "name",
       "hash": {},
       "data": data,
       "loc": {
         "start": {
-          "line": 3,
-          "column": 34
+          "line": 4,
+          "column": 17
         },
         "end": {
-          "line": 3,
-          "column": 42
+          "line": 4,
+          "column": 25
         }
       }
-    }) : helper)) + "\" class=\"card__image\" />\r\n        <div class=\"card__content\">\r\n            <h2 class=\"card__name\">" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
+    }) : helper)) + "\" class=\"card__image\" />\n        <div class=\"card__content\">\n            <h2 class=\"card__name\">" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
       "name": "name",
       "hash": {},
       "data": data,
       "loc": {
         "start": {
-          "line": 5,
+          "line": 6,
           "column": 35
         },
         "end": {
-          "line": 5,
+          "line": 6,
           "column": 43
         }
       }
-    }) : helper)) + "</h2>\r\n            <p class=\"card__price\">\r\n                <i class=\"material-icons\"> monetization_on </i>\r\n                " + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
+    }) : helper)) + "</h2>\n            <p class=\"card__price\">\n                <i class=\"material-icons\"> monetization_on </i>\n                " + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
       "name": "price",
       "hash": {},
       "data": data,
       "loc": {
         "start": {
-          "line": 8,
+          "line": 9,
           "column": 16
         },
         "end": {
-          "line": 8,
+          "line": 9,
           "column": 25
         }
       }
-    }) : helper)) + " кредитов\r\n            </p>\r\n\r\n            <p class=\"card__descr\">\r\n                " + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
+    }) : helper)) + " кредитов\n            </p>\n\n            <p class=\"card__descr\">\n                " + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, _typeof(helper) === alias3 ? helper.call(alias1, {
       "name": "description",
       "hash": {},
       "data": data,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 13,
           "column": 16
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 31
         }
       }
-    }) : helper)) + "\r\n            </p>\r\n\r\n            <ul class=\"tag-list\">\r\n\r\n" + ((stack1 = lookupProperty(helpers, "each").call(alias1, depth0 != null ? lookupProperty(depth0, "ingredients") : depth0, {
+    }) : helper)) + "\n            </p>\n\n            <ul class=\"tag-list\">\n\n" + ((stack1 = lookupProperty(helpers, "each").call(alias1, depth0 != null ? lookupProperty(depth0, "ingredients") : depth0, {
       "name": "each",
       "hash": {},
       "fn": container.program(1, data, 0),
@@ -2244,15 +2244,15 @@ var templateFunction = _handlebars.default.template({
       "data": data,
       "loc": {
         "start": {
-          "line": 17,
+          "line": 18,
           "column": 16
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 25
         }
       }
-    })) != null ? stack1 : "") + "\r\n            </ul>\r\n        </div>\r\n\r\n        <button class=\"card__button button\">\r\n            <i class=\"material-icons button__icon\"> shopping_cart </i>\r\n            В корзину\r\n        </button>\r\n    </article>\r\n</li>";
+    })) != null ? stack1 : "") + "\n            </ul>\n        </div>\n\n        <button class=\"card__button button\">\n            <i class=\"material-icons button__icon\"> shopping_cart </i>\n            В корзину\n        </button>\n    </article>\n</li>";
   },
   "useData": true
 });
@@ -2320,7 +2320,7 @@ module.exports = [{
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
-var _menuCard = _interopRequireDefault(require("/templates/menu-card.hbs"));
+var _menuCard = _interopRequireDefault(require("./templates/menu-card.hbs"));
 
 var _menu = _interopRequireDefault(require("./menu.json"));
 
@@ -2332,16 +2332,12 @@ var refs = {
   body: document.body,
   menu: document.querySelector('.js-menu'),
   checkBox: document.querySelector('#theme-switch-toggle')
-};
-console.log(refs.checkBox);
-console.log(refs.body); //массив тем -------------------------------------------------
+}; //массив тем -------------------------------------------------
 
 var Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme'
-}; // console.log(Theme.LIGHT)
-// console.log(Theme.DARK)
-//создание меню ---------------------------------------------
+}; //создание меню ---------------------------------------------
 
 var menuList = createMenuCards(_menu.default);
 refs.menu.insertAdjacentHTML('beforeend', menuList);
@@ -2353,14 +2349,31 @@ function createMenuCards(menuCards) {
 ; // переключение тем------------------------------------------
 
 refs.checkBox.addEventListener('change', onChange);
-refs.body.classList.add("light-theme");
+
+if (!localStorage.getItem('thema')) {
+  refs.body.classList.add(Theme.LIGHT);
+  localStorage.setItem('thema', refs.body.classList);
+}
+
+refs.body.className = localStorage.getItem('thema');
 
 function onChange() {
-  // console.log("Состояние чекбокса изменнено")
-  refs.body.classList.toggle("dark-theme");
-  refs.body.classList.toggle("light-theme");
+  refs.body.classList.toggle(Theme.DARK);
+  refs.body.classList.toggle(Theme.LIGHT);
+  return localStorage.setItem('thema', refs.body.classList);
+} // проверка кнопки на checked----------------------
+
+
+var currentClass = localStorage.getItem('thema');
+
+if (currentClass === Theme.DARK) {
+  refs.checkBox.setAttribute("checked", true);
+} else {
+  refs.checkBox.removeAttribute("checked");
 }
-},{"/templates/menu-card.hbs":"templates/menu-card.hbs","./menu.json":"menu.json"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+;
+},{"./templates/menu-card.hbs":"templates/menu-card.hbs","./menu.json":"menu.json"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -2388,7 +2401,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62774" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52658" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
